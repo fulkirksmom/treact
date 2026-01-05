@@ -12,8 +12,6 @@
   height: 80px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: white;
 }
 
@@ -21,6 +19,10 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
 }
 
 .logo {
@@ -33,6 +35,13 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 nav .row {
@@ -76,12 +85,27 @@ nav .row {
   background-color: #007bff;
   color: white;
   border-radius: 8px;
+  text-decoration: none;
   border: 2px solid #007bff;
 }
 .nav__link--primary:hover {
   text-decoration: none;
-
 }
+
+button {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
 img {
   width: 100%;
 }
@@ -114,23 +138,27 @@ LANDING
   width: 100%;
 }
 
-.box {
-  padding: 24px;
+.landing__description {
+  margin-bottom: 32px;
+}
+.landing__description--para {
+  font-size: 24px;
+  color: #555;
+  margin-top: 16px;
+  margin-bottom: 32px;
 }
 
-.box-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-  background-color: white;
+.landing__button {
+  padding: 12px 32px;
+  font-size: 24px;
+  line-height: 1.5;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.box-2 {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
+.landing__button:hover {
+  background-color: #0056b3;
 }
