@@ -11,6 +11,10 @@ nav {
     height: 80px;
 }
 
+img {
+    width: 100%;
+}
+
 .logo {
     width: 240px;
 }
@@ -30,6 +34,12 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 24px;
+}
+
+.nav__logo {
+    width: 240px;
+
 }
 
 .nav__link {
@@ -39,6 +49,8 @@ li {
     text-decoration: none;
     width: 240px;
     padding: 8px;
+    margin-left: 16px;
+    display: none;
 }
 
 .nav__link:hover {
@@ -54,12 +66,24 @@ li {
     text-decoration: none;
 }
 
+button {
+    padding: 8px 16px;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    background-color: #242663;
+    color: white;
+    cursor: pointer;
+}
+
 .btn__menu {
     background-color: transparent;
     color: #242663;
     font-size: 42px;
     text-align: center;
     border: none;
+    display: none;
 }
 
 .menu__backdrop {
@@ -100,3 +124,21 @@ li {
     padding: 8px;
     color: white;
 }
+
+header {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    text-align: center;
+}
+
+.header__row {
+    margin-bottom: 24px;
+}
+

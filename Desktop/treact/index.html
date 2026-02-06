@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://kit.fontawesome.com/yourfontawesomekit.js"
-      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="chrome-extension://ihcjicgdanjaechkgeegckofjjedodee/app/content-style.css">
+    <script src="https://kit.fontawesome.com/e5847c9492.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
     <title>module-2-final-project</title>
   </head>
   <body>
-    <section>
+    <section id="landing">
       <nav>
         <div class="nav">
           <div class="nav__container">
-            <img class="logo" src="logo.svg" alt="Logo">
+            <div class="row nav__row">
+                <div class="nav__logo">
+            <img class="nav__logo--img" src="./assets/logo.svg" alt="Logo">
             <ul class="nav__links">
               <li><a href="nav__link">About</a></li>
               <li><a href="nav__link">Blog</a></li>
@@ -24,6 +25,8 @@
               <li><a href="nav__link">Login</a></li>
               <li><a href="nav__link nav__link--primary">Sign Up</a></li>
             </ul>
+            </div>
+            </div>
             <button class="btn__menu" onclick="openMenu()">
                 <i class="fas fa-bars"></i>
             </button>
@@ -43,11 +46,50 @@
             </ul>
             </div>
           </div>
+          </nav>
+    <header>
+        <div class="header__container">
+          <div class="headerr__row">
+            <h1>Beautiful React Templates<span class="purple">for you</span></h1>
+          </div>
+          <p>Our templates are easy to setup, understand and customize.
+            Fully modular components with a variety of pages and components.</p>
+          <textarea name="email" id="email" placeholder="Your E-mail Address"></textarea>
+        <button>Get Started</button>
+        <img src="./assets/customers-logo-strip.png" alt="Customers Logo Strip">
+        <img src="./assets/design-illustration-2.svg" alt="">
+      
+      </div>
         </div>
-      </nav>
-      <header>
-
       </header>
+      <main>
+        <h3 class="purple">FEATURES</h3>
+        <h2>We Have Amazing Service.</h2>
+        <div class="features__container">
+          <div class="features__row">
+            <div class="feature">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img src="./assets/shield-icon.svg" alt="">
+            <h3>Secure</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img src="./assets/support-icon.svg" alt="Support Icon">
+            <h3>24/7 Support</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img src="./assets/customize-icon.svg" alt="Customize Icon">
+            <h3>Customizable</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img src="./assets/reliable-icon.svg" alt="Reliable Icon">
+            <h3>Reliable</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img src="./assets/fast-icon.svg" alt="Fast Icon">
+            <h3>Fast</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img src="./assets/simple-icon.svg" alt="Simple Icon">
+            <h3>Easy</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+
+      </main>
     </section>
   </body>
 </html>
