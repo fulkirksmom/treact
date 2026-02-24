@@ -23,6 +23,10 @@ ul {
     display: flex;
 }
 
+.purple {
+    color: #2b2463;
+}
+
 h1 {
     font-size: 56px;
     font-weight: 700;
@@ -166,7 +170,7 @@ header {
     justify-content: space-between;
 }
 
-.design-illustration {
+.design-illustration-2 {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -234,4 +238,20 @@ header {
 }
 
 /* DESIGNED */
+
+.section__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #7342b6;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+.section__subtitle {
+    font-size: 56px;
+    color: #7342b6;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
 
