@@ -55,8 +55,7 @@ li {
 }
 
 .nav__logo {
-    width: 240px;
-
+    width: 320px;
 }
 
 .nav__link {
@@ -89,14 +88,14 @@ button {
     font-weight: 700;
     border: none;
     border-radius: 8px;
-    background-color: #242663;
+    background-color: #7342b6;
     color: white;
     cursor: pointer;
 }
 
 .btn__menu {
     background-color: transparent;
-    color: #242663;
+    color: #7342b6;
     font-size: 42px;
     text-align: center;
     border: none;
@@ -181,7 +180,7 @@ header {
 .icon {
     width: 64px;
     height: 64px;
-    background-color: #242663;
+    background-color: #7432b6;
     color: white;
     display: flex;
     justify-content: center;
@@ -219,7 +218,7 @@ header {
 .reliable-icon,
 .fast-icon,
 .simple-icon {
-    background-color: #242663;
+    background-color: #7432b6;
     color: white;
     width: 64px;
     height: 64px;
@@ -255,3 +254,40 @@ header {
     justify-content: center;
 }
 
+/* STEPS */
+
+.steps__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.section__title {
+    font-size: 24px;
+    color: #7342b6;
+}
+
+.section__subtitle {
+    font-size: 56px;
+}
+
+.step__number {
+    font-size: 64px;
+    color: rgb(153, 151, 151);
+}
+
+.step__description {
+    font-size: 32px;
+    color: #242424;
+    font-weight: bold;
+}
